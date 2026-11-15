@@ -5,6 +5,7 @@ Single Letter logo:
 <img width="1254" height="1254" alt="Cosmic N Emblem with Orbital Star" src="https://github.com/user-attachments/assets/f890685e-840d-4da1-a78a-f8a4f663de25" />
 
 Nova OS (As of November 15, 2026) is an AI made project. This tests if AI could really take over the OS side of computers. Here are the versions so far:
+
 **BETA PRE 1X:**
 
 Nova OS 1 Beta 1 Build 1267
@@ -78,10 +79,10 @@ Nova OS 1.02.4000 Build 4000
 
 | Name | Version | Codename | Build | Release Date | EOS | Extended EOS |
 | --- | --- | --- | --- | --- | --- | --- |
-| Nova OS 1.00.0000 | 1.00.0000 | Supernova 1 | 0000 | Nov 7, 2026 | Dec 7, 2026 | Jan 31, 2026 |
-| Nova OS 1.01.0000 | 1.01.0000 | Supernova 2 | 0000 | Oct 1, 2026 | Nov 1, 2026 | Nov 30, 2026 |
-| Nova OS 1.02.0000 | 1.02.0000 | Supernova 3 | 0000 | Oct 3, 2026 | Nov 3, 2026 | Nov 30, 2026 |
-| Nova OS 1.02.1000 | 1.02.1000 | Supernova 4 | 1000 | Oct 5, 2026 | Nov 5, 2026 | Nov 30, 2026 |
-| Nova OS 1.02.2000 | 1.02.2000 | Supernova 5 | 2000 | Oct 7, 2026 | Nov 7, 2026 | Nov 30, 2026 |
-| Nova OS 1.02.3000 | 1.02.3000 | Supernova 6 | 3000 | Oct 9, 2026 | Nov 9, 2026 | Nov 30, 2026 |
-| Nova OS 1.02.4000 | 1.02.4000 | Supernova 7 | 4000 | Oct 11, 2026 | Nov 11, 2026 | Nov 30, 2026 |
+| Nova OS 1.00.0000 | 1.00.0000 | Supernova 1 | 0000 | Nov 7, 2026 | Dec 7, 2026 | Jan 31, 2027 |
+| Nova OS 1.01.0000 | 1.01.0000 | Supernova 2 | 0000 | Nov 10, 2026 | Dec 10, 2026 | Jan 31, 2027 |
+| Nova OS 1.02.0000 | 1.02.0000 | Supernova 3 | 0000 | Nov 10, 2026 | Dec 10, 2026 | Jan 31, 2027 |
+| Nova OS 1.02.1000 | 1.02.1000 | Supernova 4 | 1000 | Nov 14, 2026 | Dec 14, 2026 | Jan 31, 2027 |
+| Nova OS 1.02.2000 | 1.02.2000 | Supernova 5 | 2000 | Nov 14, 2026 | Dec 14, 2026 | Jan 31, 2027 |
+| Nova OS 1.02.3000 | 1.02.3000 | Supernova 6 | 3000 | Nov 15, 2026 | Dec 15, 2026 | Jan 31, 2027 |
+| Nova OS 1.02.4000 | 1.02.4000 | Supernova 7 | 4000 | Nov 15, 2026 | Dec 15, 2026 | Jan 31, 2027 |
