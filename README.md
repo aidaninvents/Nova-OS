@@ -39,6 +39,26 @@ Nova OS 1 Beta 15 Build 5648
 
 Nova OS 1 Beta 16 Build 5167
 
+
+| Name | Version | Codename | Build | Release Date | EOS | Extended EOS |
+| --- | --- | --- | --- | --- | --- | --- |
+| Nova OS Beta 1 | 0.1.1267 | Stardust | 1267 | Sep 26, 2026 | Oct 5, 2026 | Oct 31, 2026 |
+| Nova OS Beta 2 | 0.1.9739 | Orion | 9739 | Oct 1, 2026 | Nov 1, 2026 | Nov 30, 2026 |
+| Nova OS Beta 3 | 0.2.1254 | Nebula | 1254 | Oct 3, 2026 | Nov 3, 2026 | Nov 30, 2026 |
+| Nova OS Beta 4 | 0.2.9457 | Eclipse | 9457 | Oct 5, 2026 | Nov 5, 2026 | Nov 30, 2026 |
+| Nova OS Beta 5 | 0.3.1342 | Andromeda | 1342 | Oct 7, 2026 | Nov 7, 2026 | Nov 30, 2026 |
+| Nova OS Beta 6 | 0.3.9653 | Hyperion | 9653 | Oct 9, 2026 | Nov 9, 2026 | Nov 30, 2026 |
+| Nova OS Beta 7 | 0.4.1842 | Zenith | 1842 | Oct 11, 2026 | Nov 11, 2026 | Nov 30, 2026 |
+| Nova OS Beta 8 | 0.4.9274 | Pulsar | 9274 | Oct 13, 2026 | Nov 13, 2026 | Nov 30, 2026 |
+| Nova OS Beta 9 | 0.5.1568 | Singularity | 1568 | Oct 16, 2026 | Nov 16, 2026 | Nov 30, 2026 |
+| Nova OS Beta 10 | 0.5.9831 | Darkstar | 9831 | Oct 19, 2026 | Nov 19, 2026 | Dec 31, 2026 |
+| Nova OS Beta 11 | 0.6.1746 | Genesis | 1746 | Oct 21, 2026 | Nov 21, 2026 | Dec 31, 2026 |
+| Nova OS Beta 12 | 0.6.9612 | Astra | 9612 | Oct 24, 2026 | Nov 24, 2026 | Dec 31, 2026 |
+| Nova OS Beta 13 | 0.7.1385 | Infinity | 1385 | Oct 27, 2026 | Nov 27, 2026 | Dec 31, 2026 |
+| Nova OS Beta 14 | 0.7.9749 | Quasar | 9749 | Oct 30, 2026 | Nov 30, 2026 | Dec 31, 2026 |
+| Nova OS Beta 15 | 0.8.5648 | Nebulon | 5648 | Nov 7, 2026 | Dec 7, 2026 | Jan 31, 2027 |
+| Nova OS Beta 16 | 0.9.5167 | Vortex | 5167 | Nov 7, 2026 | Dec 7, 2026 | Jan 31, 2027 |
+
 **1X:**
 
 Nova OS 1.00.0000 Build 0000
@@ -54,3 +74,14 @@ Nova OS 1.02.2000 Build 2000
 Nova OS 1.02.3000 Build 3000
 
 Nova OS 1.02.4000 Build 4000
+
+
+| Name | Version | Codename | Build | Release Date | EOS | Extended EOS |
+| --- | --- | --- | --- | --- | --- | --- |
+| Nova OS 1.00.0000 | 1.00.0000 | Supernova 1 | 0000 | Nov 7, 2026 | Dec 7, 2026 | Jan 31, 2026 |
+| Nova OS 1.01.0000 | 1.01.0000 | Supernova 2 | 0000 | Oct 1, 2026 | Nov 1, 2026 | Nov 30, 2026 |
+| Nova OS 1.02.0000 | 1.02.0000 | Supernova 3 | 0000 | Oct 3, 2026 | Nov 3, 2026 | Nov 30, 2026 |
+| Nova OS 1.02.1000 | 1.02.1000 | Supernova 4 | 1000 | Oct 5, 2026 | Nov 5, 2026 | Nov 30, 2026 |
+| Nova OS 1.02.2000 | 1.02.2000 | Supernova 5 | 2000 | Oct 7, 2026 | Nov 7, 2026 | Nov 30, 2026 |
+| Nova OS 1.02.3000 | 1.02.3000 | Supernova 6 | 3000 | Oct 9, 2026 | Nov 9, 2026 | Nov 30, 2026 |
+| Nova OS 1.02.4000 | 1.02.4000 | Supernova 7 | 4000 | Oct 11, 2026 | Nov 11, 2026 | Nov 30, 2026 |
