@@ -1,0 +1,45 @@
+#!/usr/bin/expect -f
+set timeout 90
+
+spawn qemu-system-x86_64 -m 1G -smp 2 \
+    -kernel /boot/vmlinuz-7.0.0-38-generic \
+    -initrd /mnt/c/Users/aidan/Downloads/NovaOS_fixed/NovaOS_fixed/build/initramfs.cpio.gz \
+    -append "console=ttyS0 quiet panic=1" \
+    -drive file=/mnt/c/Users/aidan/Downloads/NovaOS_fixed/NovaOS_fixed/build/test_target.img,format=raw,index=0,media=disk \
+    -display none -serial stdio
+
+expect {
+    "Select target disk number" {
+        sleep 1
+        send "1\r"
+    }
+    timeout {
+        puts "TIMEOUT waiting for disk selection prompt"
+        exit 1
+    }
+}
+
+expect {
+    "Type 'YES'" {
+        sleep 1
+        send "YES\r"
+    }
+    timeout {
+        puts "TIMEOUT waiting for confirmation prompt"
+        exit 1
+    }
+}
+
+expect {
+    "NovaOS Installation Completed Successfully!" {
+        puts "\n>>> DETECTED INSTALLATION SUCCESS MESSAGE <<<"
+        sleep 1
+        send "\r"
+    }
+    timeout {
+        puts "TIMEOUT waiting for installation completion"
+        exit 1
+    }
+}
+
+expect eof

@@ -1,0 +1,34 @@
+# Build outputs and generated binaries (Do not commit to Git repo - upload ISO/VDI to GitHub Releases instead)
+build/
+*.vdi
+*.raw
+*.iso
+*.img
+*.bin
+
+# Backup and draft files
+*.backup*
+*.bak*
+*.draftbak
+*.orig_*
+*.pre_*
+*.before_*
+
+# Temporary test logs and debug captures
+*.log
+*.png
+*.webm
+*.txt'
+!README.txt
+!broadcast.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
