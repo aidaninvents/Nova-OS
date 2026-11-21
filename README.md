@@ -68,7 +68,7 @@ Nova OS 1.03.3000 Build 3000
 
 Nova OS 1.03.4000 Build 4000
 
-Nova OS 1.03.5000 LTS Build 5000
+Nova OS 1.03.5000 LTS Build 5000 *(Unfortunately, this is the last version of 1x)*
 
 **2X:**
 
@@ -111,7 +111,7 @@ Nova OS 2.00 Beta 3 Build 27200
 | 1.03.2000 | Nova OS 1.03.2000 | Hypernova 3 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
 | 1.03.3000 | Nova OS 1.03.3000 | Hypernova 4 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
 | 1.03.4000 | Nova OS 1.03.4000 | Hypernova 5 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
-| 1.03.5000 | Nova OS 1.03.5000 LTS | Hypernova 6 (LTS) | Nov 21, 2026 | Nov 21, 2027 | Dec 21, 2027 |
+| 1.03.5000 | Nova OS 1.03.5000 LTS *(Last version of 1x)* | Hypernova 6 (LTS) | Nov 21, 2026 | Nov 21, 2027 | Dec 21, 2027 |
 | 2.00.27000 | Nova OS 2.00 Beta 1 | Polaris 1 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
 | 2.00.27100 | Nova OS 2.00 Beta 2 | Polaris 2 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
 | 2.00.27200 | Nova OS 2.00 Beta 3 | Polaris 3 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
