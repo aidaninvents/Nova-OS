@@ -1,0 +1,43 @@
+{
+  "build": "27300",
+  "version_label": "Nova OS 2.00 Beta 4\n(Build 27300)",
+  "edition": "Pro",
+  "language": "en-US",
+  "boot_spinner": "newbootspin.fnt",
+  "theme": "light",
+  "system_font": "Segoe UI",
+  "installed_apps": [
+    "wifi",
+    "settings",
+    "files",
+    "appstore",
+    "chrome"
+  ],
+  "app_usage": {
+    "wifi": {
+      "count": 1,
+      "last_used": 1795038202733
+    },
+    "appstore": {
+      "count": 1,
+      "last_used": 1795038226924
+    },
+    "chrome": {
+      "count": 1,
+      "last_used": 1795038259236
+    }
+  },
+  "datetime": {
+    "timezone": "America/Chicago",
+    "offset_ms": 0,
+    "use_24h": false,
+    "show_seconds": false
+  },
+  "network": {
+    "connected": true,
+    "mode": "wifi",
+    "ssid": "GaberFi",
+    "security": "WPA2-PSK (AES/CCMP)",
+    "driver": "cfg80211 / e1000 Network Stack (WPA2-PSK CCMP Enabled)"
+  }
+}

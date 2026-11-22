@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova OS 2.00 Beta 4 (27300)</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body class="theme-light">
+  <!-- Minimalist Boot Screen -->
+  <div id="boot-screen" class="boot-screen">
+    <img src="assets/nova_n_transparent.png" alt="Nova OS" class="boot-logo" />
+    <div id="boot-spinner" class="boot-spinner-box"></div>
+  </div>
+
+  <!-- Full-Screen Blue Installing Screen -->
+  <div id="install-screen" class="install-screen hidden">
+    <div class="install-spinner-wrap">
+      <div id="install-spinner" class="boot-spinner-box"></div>
+    </div>
+    <div id="install-text" class="install-text">Installing Nova OS 27400</div>
+  </div>
+
+  <!-- Windows 10-Style ISO Installer -->
+  <div id="setup-screen" class="setup-screen hidden">
+    <div class="setup-window">
+      <div class="setup-titlebar">
+        <span>Nova OS 2.00 Setup</span>
+        <button id="setup-close-btn" class="setup-close-btn" title="Close Setup & Try Live Desktop">✕</button>
+      </div>
+      <div id="setup-body" class="setup-body"></div>
+      <div id="setup-footer" class="setup-footer"></div>
+    </div>
+  </div>
+
+  <!-- Shutdown / Power Off Screen -->
+  <div id="shutdown-screen" class="shutdown-screen hidden">
+    <div class="shutdown-msg">Nova OS has shut down safely.</div>
+    <button id="power-on-btn" class="btn-primary">Power On</button>
+  </div>
+
+  <!-- Desktop Environment -->
+  <div id="desktop" class="desktop hidden">
+    <div id="desktop-icons" class="desktop-icons"></div>
+    <div id="windows-layer" class="windows-layer"></div>
+
+    <!-- Start Menu -->
+    <div id="start-menu" class="start-menu hidden">
+      <div class="start-menu-inner">
+        <div class="start-menu-header">
+          <div class="start-menu-title">Nova OS Start Menu</div>
+          <div id="start-user-badge" class="start-user-badge hidden"></div>
+          <div class="start-menu-sub">Apps:</div>
+          <div class="start-search-wrap">
+            <input id="start-search-input" class="start-search-input" type="text" placeholder="Search installed apps..." />
+          </div>
+        </div>
+        <div id="start-menu-grid" class="start-menu-grid"></div>
+        <div class="start-menu-footer">
+          <button id="btn-shutdown" class="power-btn" title="Shut Down" aria-label="Shut Down">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <path d="M12 3v9" />
+              <path d="M6.8 6.8a8 8 0 1 0 10.4 0" />
+            </svg>
+          </button>
+          <button id="btn-restart" class="power-btn" title="Restart" aria-label="Restart">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12a9 9 0 1 1-2.64-6.36" />
+              <polyline points="21 3 21 9 15 9" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- WiFi Flyout -->
+    <div id="wifi-flyout" class="wifi-flyout hidden">
+      <div class="wifi-flyout-header">
+        <span>Wi-Fi Hardware Scan (WPA2-PSK)</span>
+        <button id="wifi-rescan-btn" class="btn-small">Scan</button>
+      </div>
+      <div id="wifi-flyout-status" class="wifi-flyout-status">Checking physical 802.11 hardware...</div>
+      <div id="wifi-network-list" class="wifi-network-list"></div>
+      <div id="wifi-password-panel" class="wifi-password-panel hidden">
+        <div id="wifi-selected-ssid" class="wifi-selected-ssid"></div>
+        <input id="wifi-password-input" type="password" placeholder="Enter WPA2-PSK security password" />
+        <div class="wifi-pw-actions">
+          <button id="wifi-connect-btn" class="btn-primary">Connect</button>
+          <button id="wifi-cancel-btn" class="btn-secondary">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop Notification Toasts -->
+    <div id="toast-tray" class="toast-tray"></div>
+
+    <!-- Bottom Taskbar -->
+    <div id="taskbar" class="taskbar">
+      <button id="start-btn" class="start-btn" title="Start Menu" aria-label="Start Menu">
+        <img id="start-btn-img" src="assets/start_btn_light.png" alt="Nova Start" />
+      </button>
+      <div id="taskbar-apps" class="taskbar-apps"></div>
+      <div class="taskbar-tray">
+        <button id="tray-net-btn" class="tray-net-btn" title="Network Status">
+          <span id="tray-net-icon" class="tray-net-icon"></span>
+          <span id="tray-net-label">Not Connected</span>
+        </button>
+        <div id="tray-clock" class="tray-clock">Sat Nov 21 &nbsp; 1:30 PM</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden file inputs -->
+  <input id="bg-file-input" type="file" accept="image/*" class="hidden" />
+  <input id="explorer-file-input" type="file" class="hidden" />
+</body>
+</html>

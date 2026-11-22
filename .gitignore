@@ -1,0 +1,7 @@
+build/
+__pycache__/
+*.pyc
+*.iso
+*.vdi
+*.log
+novaos2/storage/
