@@ -4,7 +4,7 @@ Full logo:
 Single Letter logo: 
 <img width="1254" height="1254" alt="Cosmic N Emblem with Orbital Star" src="https://github.com/user-attachments/assets/f890685e-840d-4da1-a78a-f8a4f663de25" />
 
-Nova OS (As of November 21, 2026) is an AI made project. This tests if AI could really take over the OS side of computers. Here are the versions so far:
+Nova OS (As of November 22, 2026) is an AI made project. This tests if AI could really take over the OS side of computers. Here are the versions so far:
 
 **BETA PRE 1X:**
 
@@ -78,6 +78,8 @@ Nova OS 2.00 Beta 2 Build 27100
 
 Nova OS 2.00 Beta 3 Build 27200
 
+Nova OS 2.00 Beta 4 Build 27300
+
 ---
 
 | Version | Name | Codename | Release Date | End of Support | Extended EOS |
@@ -115,3 +117,4 @@ Nova OS 2.00 Beta 3 Build 27200
 | 2.00.27000 | Nova OS 2.00 Beta 1 | Polaris 1 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
 | 2.00.27100 | Nova OS 2.00 Beta 2 | Polaris 2 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
 | 2.00.27200 | Nova OS 2.00 Beta 3 | Polaris 3 | Nov 21, 2026 | Dec 21, 2026 | Jan 31, 2027 |
+| 2.00.27300 | Nova OS 2.00 Beta 4 | Polaris 4 | Nov 22, 2026 | Dec 22, 2026 | Jan 31, 2027 |
